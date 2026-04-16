@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Civil Engineering</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #ADD8E6;
+      color: white;
+      padding: 4rem;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 3rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: justify;
+      font-size: 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #1E3A8A;
+    }
+    .buttons {
+      text-align: center;
+      margin: 2rem 0;
+    }
+button {
+  margin: 5px;
+  padding: 20px 30px;
+  border: none;
+  background: #ADD8E6;
+  color: white;
+  border-radius: 25px; /* makes it oblong */
+  cursor: pointer;
+font-size: 20px;
+}
+    button:hover {
+      background: #1E3A8A;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    /* Advice Box Styling */
+    #advice-display {
+      background: #f0f8ff; 
+      border-left: 5px solid #1E3A8A; 
+      padding: 20px; 
+      margin: 20px 0; 
+      font-style: italic; 
+      color: #1E3A8A;
+      border-radius: 4px;
+      min-height: 50px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BRIDGE THE GAP TO SUCCESS</h1>
+    <h3>THE ROLE OF CIVIL ENGINEERING</h3>
+  </header>
+
+  <div class="buttons">
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('goal')">Goal</button>
+    <button onclick="showSection('responsibilities')">Responsibilities</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('current trends')">Current trends</button>
+    <button onclick="showSection('simulation')">Advice</button>
+    <button onclick="showSection('math game')">Math Game</button>
+    <button onclick="showSection('about the author')">About the author</button>
+  </div>
+
+      <main>
+    <section id="about" style="display: block;">
+      <h2>About Civil Engineering</h2>
+      <p>In an ever-evolving world, the dream of a sustainable, resilient, and brighter future rest firmly on the foundations laid by Civil Engineers. From the bustling cities we call home to the vital networks that connect us, Civil Engineering is not just about concrete and steel, its about crafting the very fabric of our civilization.</p>
+      <p>Civil Engineering is the branch of engineering focused on designing, building, and maintaining structures. They work to provide the foundation for modern society, making sure that cities have clean water, safe transportation routes, and sturdy infrastructures.</p>
+     <h2>Sub-Disciplines</h2>
+<ul>
+	<li>Structural Engineering </li>
+ 	<p>Structural Engineers focuses on the "bones" of a structure. Their main job is to ensure that structures are strong enough to 	carry their own weight and can withstand outside forces like heavy wind and earthquake.</p>
+		<li>Geotechnical Engineering</li>
+	 <p>Studies soil, rock, and groundwater to assess the site suitability and design foundations to prevent buildings from sinking or 	leaning.</p>
+	<li>Construction Engineering</li>
+	<p>Focuses on the actual building process. They manage workers, budget, and timeline on the construction site ti ensure that the 	project meets safety and quality.</p>
+	<li>Transportation Engineering</li>
+ 	<p>Designs safe highways, efficient traffic systems, airports, and railwarys in order for travels to be faster and safer.</li></p>
+	<li>Water Resource Engineer</li>
+	<p>Designs systems to provide clean drinking water t cities and build ways to remove wastewater safely. Also work on dams and 	floodcontrol to prevent floods during storms.</p>
+	<li>Environmental Engineering</li>
+	<p>Focuses on protecting and improving the environment, finding ways to reduce pollution and waste for a sustainable green 	design.</p>
+	</ul>
+    </section>
+
+    <section id="goal" style="display:none;">
+      <h2>Primary Goals</h2>
+      <p>The main purpose is to support human life.</p>
+	<ul>
+        <li>Ensure public safety</li>
+	 <p>Designing structures that can withstand loads, natural disasters, reducing risk to people and property.</p>
+       <li>Optimize Effiency</li>
+	<p>Completes project on schedule and within budget, using innovative materials, and smart building techniques to get the best result.</p>
+        <li>Ensure Resilience</li>
+      <p>Create systems that can withstand and recover quickly from distruptions like natural hazards.</p>
+        <li>Promote sustainability</li>
+       <p>Devlop infrastructure that reduced environmental impact, conserve resources, and to adapt green designs.</p>
+	<li>Improve Quality of Life</li>
+       <p>Provide essential resources such as clean water, sanitation, and public spaces to enhance the well-being of the community.</p>
+	<li>Drive Economic Growth</li>
+       <p>Build and improve systems inorder for businesses to grow, create new jobs, and make easy access to services.</p>
+	</ul>
+    </section>
+
+    <section id="responsibilities" style="display:none;">
+      <h2>Key Responsibilities</h2>
+      <p>To reach such goals, engineers handle specific duties, which include:</p>
+      <ul>
+        <li>Site Investigation</li>
+      <p>Before buiding, soil and environment must be assess first to check the grounds stability to hold a massive structure.
+        <li>Technical Analysis</li>
+      <p>They caclculate the loads to ensure that the materials can handle such forces wirhout breaking.</p>
+        <li>Project Management</li>
+      <p>Responsible for budget, time, and quality to ensure that the project isfinished on schedule, within budget, and using standard materials to meet quality.
+        <li>Design and Mapping</li>
+      <p>Creats detailed blueprints and 3D models using software to map out exactlty the position of the materials.</p>
+	<li>Legal and Ethical Compliance</li>
+      <p>Follows strict building codes and goverment laws to ensure the safety of the public.</p>
+      </ul>
+    </section>
+
+    <section id="projects" style="display:none;">
+      <h2>Structural Engineering Projects</h2>
+      <ul>
+<li>Bridges</li>
+<img src="bridge.jpg" alt="Bridge image" style="width:300px;">        
+        <li>Skyscrapers</li>
+<img src="skyscrapers.jpg" alt="Skyscapers image" style="width:300px;"> 
+        <li>Stadiums</li>
+<img src="stadium.webp" alt="Stadiums image" style="width:300px;"> 
+      </ul>
+      <h2>Transportation Engineering Projects</h2>
+      <ul>
+        <li>Highways and Road Networks</li>
+<img src="highways.jpg" alt="Highways and Road Networks image" style="width:300px;">
+        <li>Railways and Subways</li>
+<img src="railways.jpg" alt="Railways and Subways image" style="width:300px;">
+        <li>Airports</li>
+<img src="airports.jpg" alt="Airports image" style="width:300px;">
+
+      </ul>
+      <h2>Water Resource and Environment Projects</h2>
+      <ul>
+        <li>Dams and Reservoirs</li>
+<img src="dams.jpg" alt="Dams and Reservoirs image" style="width:300px;">
+        <li>Aqueducts and Pipelines</li>
+<img src="aqueduct.jpg" alt="Aqueducts and Pipelines image" style="width:300px;">
+        <li>Stormwater and Flood Management</li>
+<img src="stormwater.jpg" alt="Stormwater and Flood Management image" style="width:300px;">
+      </ul>
+      <h2>Geotechnical Engineering Projects</h2>
+      <ul>
+              <li>Retaining Walls and Levees</li>
+<img src="wall.jpg" alt="Retaining Walls and Levees image" style="width:300px;">
+        <li>Tunnels and Underground Spaces</li>
+<img src="tunnels.png" alt="Tunnels and Underground Spaces image" style="width:300px;">
+      </ul>
+    </section>
+
+    <section id="current trends" style="display:none;">
+      <h2>Current Trends</h2>
+      <ul>
+      <p><li>Retrofitting for Extreme Weather: This includes installing base isolators for seismic resistance and carbon-fiber reinforcement to help older buildings withstand higher wind loads, instead of building new.</li></p>
+      <p><li>Non-Destructive Testing (NDT): Engineers now use ultrasonic and thermal imaging to "see" through concrete and identify internal corrosion or voids without damaging the structure.</li></p>
+      <p><li>Biomemetic Buildings: engineers are designing structures that self-regulate temperature. This reduces reliance on HVAC systems and lowers long-term operational costs.</li></p>
+      <p><li>Solar-Powered Smart Roads: These roads use photovoltaic cells shielded by tempered glass to generate electricity for adjacent grids while using "Brain Box" technology (external to the panels) for easier maintenance and dynamic charging of Electric Vehicles (EVs).</li></p>
+      <p><li>Advanced Concrete Crushing: allow concrete to be broken down along its natural lines of heterogeneity. This separates aggregates from cement paste, allowing for a closed-loop recycling process rather than using old concrete as low-value road base.</li></p>
+      <p><li>Digital Twins: This is the bridge between a physical building and its digital model. By using IoT sensors, a "living" digital replica monitors structural health and energy consumption in real-time.</li></p>
+      <p><li>Sponge City Infrastructure: Large-scale urban designs using permeable pavements and bioswales that act as a natural filtration and storage system, reducing the load on traditional combined sewer systems.</li></p>
+       </ul>
+       </section>
+
+ 
+ <section id="about the author" style="display:none;">
+      <h2>About the Author</h2>
+      <p>Valerie Lorin L. Mosquisa is a first-year Civil Engineering student from Western Mindanao State University. She developed this website to showcase the different aspects and roles of Civil Engineering.</p>
+      <p>The site covers essential topics ranging from its different specialization to the current trends in Civil Engineering. The site was created to help fellow students and visitors appreciate the roles of Civil Engineering in shaping society.</p>
+      <p>Motivated by bridging the gap towards sucCEs, Valerie is committed to learning the principles behind complex infrastructures as she believes that Civil Engineering is not just all about building, but also about improving the quality of life forr everyone.</p> 
+</ul>
+ <h2>Credits</h2>
+      <p>Arka360. (2026). Solar-powered smart roads: Revolutionizing transportation infrastructure. https://arka360.com/ros/solar-powered-smart-roads-transportation</p>
+      <p>Barge Design Solutions. (2026, February 16). Top engineering trends for 2026 | Revit, Civil 3D & AutoCAD 2026 innovations. https://www.bargedesign.com/blogs/top-engineering-trends-for-2026</p>
+      <p>American Society of Civil Engineers. (2025, November 10). Digital twins show great promise in civil engineering. But what’s next? Civil Engineering Source.https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/11/10/digital-twins-show-great-promise-in-civil-engineering-but-whats-next</p>
+      <p>Reddy, K. R., et al. (2026). Recent advances in geomatics, water resources and environmental engineering. Springer Nature Singapore. https://doi.org/10.1007/978-981-95-0736-8</p>
+      <p>Mapua. (2025). Real-World Impact and Contributions of Civil Engineers. https://mcl.edu.ph/contributions-of-civil-engineers-to-urban-development/</p>
+<p>https://www.touropia.com/most-famous-bridges-in-the-world/</p>
+<p>https://www.archdaily.com/tag/skyscraper</p>
+<p>https://www.cafonline.com/caf-african-nations-championship/stadiums/
+<p>https://www.topgear.com.ph/news/motoring-news/mmda-intermittent-stops-fiba-world-cup-2023-a2619-20230820</p>
+<p>https://www.crownasia.com.ph/lifestyle-blog/effects-of-the-metro-manila-subway-and-railways-on-business-and-real-estate/</p>
+<p>https://en.wikipedia.org/wiki/Zamboanga_International_Airport</p>
+<p>https://www.esquiremag.ph/long-reads/features/10-Major-Dams-Philippines-a1057-20240725-lfrm</p>
+<p>https://www.truplumbingandexcavating.com/the-evolution-of-plumbing-from-ancient-times-to-modern-innovations/</p>
+<p>https://dpwh.gov.ph/dpwh/news/21080</p>
+<p>https://www.linkedin.com/pulse/uncovering-hidden-gems-comprehensive-guide-different-types-nebraska</p>
+
+https://worldofstonesusa.com/blogs/all/how-to-build-a-retaining-wall
+https://vmt.global/tunnelling/en/topic/tunnelling-for-the-future/
+
+
+   </section>
+  </section>
+
+ <section id="simulation" style="display:none;">
+
+      <h2>Engineering Wisdom</h2>
+      <p>Building a successful career requires more than just mastering calculus; it requires practical foresight. Click the button below for a random piece of professional advice.</p>
+      
+      <div id="advice-display">
+        "Success in engineering begins with a solid foundation."
+      </div>
+      
+      <div style="text-align: center;">
+        <button type="button" onclick="generateAdvice()">Get New Advice</button>
+      </div>
+    </section>
+
+
+  <script>
+    // This function controls which section is visible
+    function showSection(sectionId) {
+      // Find all sections and hide them
+      const sections = document.querySelectorAll('main section');
+      sections.forEach(sec => {
+        sec.style.display = 'none';
+      });
+
+      // Show the one that matches the button clicked
+      const activeSection = document.getElementById(sectionId);
+      if (activeSection) {
+        activeSection.style.display = 'block';
+      }
+    }
+
+    // List of random advice
+    const advices = [
+      "Always double-check your units. A decimal error can bring down a structure.",
+      "The best engineers spend as much time on-site as they do at their desks.",
+      "Soil is the most unpredictable material; never skip a thorough geotechnical report.",
+      "Safety is a moral obligation, not just a set of rules.",
+      "Master the software (AutoCAD, Revit), but always know how to verify by hand.",
+      "Water is the enemy of infrastructure. Prioritize proper drainage.",
+      "Communication is key. If you can't explain your design, it won't get built.",
+      "Concrete needs to be cured with patience, just like your career.",
+      "The foundation must be strong, even if nobody sees it.",
+      "Steel bends but doesn't break. Be resilient like a steel.",
+      "Work with nature, not against it.",
+      "Build for the next century, not just for the next few years."
+    ];
+
+    // Function to pick a random advice
+    function generateAdvice() {
+      const display = document.getElementById('advice-display');
+      const randomIndex = Math.floor(Math.random() * advices.length);
+      display.innerText = `"${advices[randomIndex]}"`;
+    }
+  </script>
+
+</body>
+</html>
+
+<section id="math game" style="display:none;">
+    <h2>Math Game</h2>
+
+  <p id="question">Click Start to begin</p>
+
+  <input type="number" id="answer">
+
+  <br><br>
+
+  <button onclick="startGame()">Start</button>
+  <button onclick="checkAnswer()">Submit</button>
+
+  <p id="result"></p>
+  <p>Score: <span id="score">0</span></p>
+  <p>Question: <span id="count">0</span>/10</p>
+<script>
+function showSection(id) {
+  document.querySelectorAll("section").forEach(sec => {
+    sec.style.display = "none";
+  });
+
+  document.getElementById(id).style.display = "block";
+}
+
+let num1, num2, correctAnswer;
+let score = 0;
+let count = 0;
+let totalQuestions = 10;
+
+function startGame() {
+  score = 0;
+  count = 0;
+  nextQuestion();
+}
+
+function nextQuestion() {
+  if (count >= totalQuestions) {
+    endGame();
+    return;
+  }
+
+  count++;
+
+  let type = Math.floor(Math.random() * 3);
+
+  num1 = Math.floor(Math.random() * 20) + 1;
+  num2 = Math.floor(Math.random() * 20) + 1;
+
+  if (type === 0) {
+    correctAnswer = num1 + num2;
+    document.getElementById("question").textContent =
+      "What is " + num1 + " + " + num2 + "?";
+  } 
+  else if (type === 1) {
+    correctAnswer = num1 - num2;
+    document.getElementById("question").textContent =
+      "What is " + num1 + " - " + num2 + "?";
+  } 
+  else {
+    correctAnswer = num1 * num2;
+    document.getElementById("question").textContent =
+      "What is " + num1 + " × " + num2 + "?";
+  }
+
+  document.getElementById("answer").value = "";
+  document.getElementById("result").textContent = "";
+  document.getElementById("count").textContent = count;
+}
+
+function checkAnswer() {
+  let userAnswer = parseInt(document.getElementById("answer").value);
+
+  if (userAnswer === correctAnswer) {
+    document.getElementById("result").textContent = "Correct!";
+    score++;
+  } else {
+    document.getElementById("result").textContent =
+      "Wrong! Correct answer was " + correctAnswer;
+  }
+
+  document.getElementById("score").textContent = score;
+
+  nextQuestion();
+}
+
+function endGame() {
+  let message = score >= 7 ? "🎉 PASS!" : "❌ FAIL!";
+
+  document.getElementById("question").textContent =
+    "Game Over! Score: " + score + "/10";
+
+  document.getElementById("result").textContent = message;
+}
+</script>
+
+</section>
+
+
+
+  <script>
+    function showSection(sectionId) {
+      // Hide all sections
+      document.querySelectorAll("main section").forEach(sec => sec.style.display = "none");
+      // Show the selected section
+      document.getElementById(sectionId).style.display = "block";
+    }
+  </script>
+</body>
+</html>
